@@ -1,84 +1,78 @@
-Open main1.py. Before running it, what do you expect this program to do? 
+    Open main1.py. Before running it, what do you expect this program to do? 
+The program first imports the base utilities then in a text prompt it says "Greetings!" Then it will have and imput box with the question that asks "What is my favorite color?"
+    Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
+In the window it printed the text as expected and printed the second text with the option to type but has no code to respond to what you have entered.
+    What do you think the program did with what you typed?
+Nothing. It doesnt have any means of responding or saving text.
 
-Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
+    Open main2.py. Before running it, describe how this is different than main1.py. 
+In this code it saves the color from the input for the question and then prints the text.
+    What do you think the color = input() will do? 
+This code sets the argument "Color" to what ever is behind the equals sign, which in this case is the question input box.
+    Run the program in the terminal and answer the question. Did the program do what you expected?
+Yes, the program responded in the way I expected.
 
-What do you think the program did with what you typed?
+    Open main3.py. Before running it, describe how this is different than main2.py. 
+The code now has script for an if else statment. The input from the question now goes into an if else statment that then desides if it is the correct string.
+if not the corrent string it will print a text telling you and if the string is right then it will print a text telling you.
+    What is happening on lines 11–14?
+The input from the question now goes into an if else statment that then desides if it is the correct string.
+if not the corrent string it will print a text telling you and if the string is right then it will print a text telling you.
+    Why are lines 12 and 14 indented?
+because they are childern or subtext of the statment if or else.
+    Run the program and answer the question. What happens if you don’t capitalize Red?
+    What does this tell you about "color"?
+If you dpnt capitalize red then it is incorret this happens because the data value of color is equal to an exact string which is capitalized.
 
+    Open main4.py. Before running it, describe how this is different than main2.py.
+It is basicly number three exept that the if statment is now equal to two strings.
+    What problem is this trying to solve?
+capitalization.
+    Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
+It marks it a wrong because it was not the exact same as one of the strings.
 
+    Open main5.py. What do you expect line 11 to do?
+If the string entered from the input is the work red with any capitalization then it is right.
+    What problem is it trying to solve?
+capitalization.
+    Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
+Then the input is wrong because the space counts as part of the string.
 
-Open main2.py. Before running it, describe how this is different than main1.py. 
+    Open main6.py. How is line 11 different than main5.py?
+It adds a new part of code .strip() after .lower()
+    What would you guess .strip() is doing?
+strip probably removes any extra spaces or breaks in the string at the begining and end.
+    Run the program and answer the question. Is there another way of writing “red” that will break this logic?
+Yes, if you put spaces between the word.
 
-What do you think the color = input() will do? 
+    Open main7.py. Before running this program, how do you expect this to be different than main6.py?
+This one has a new statment for a third option. it adds an elsif so if its not the first if statment it goes here to check.
+    What is the purpose of line 11?
+To simplify the code in the if statments so you could just type color and has the same effect.
+    Run the program and answer the question.
+In the code? no question attached in text doc so I simply when to code and typed red.
 
-Run the program in the terminal and answer the question. Did the program do what you expected?
+    Open main8.py. What is the purpose of line 11?
+Line 11 has a while statment meaning it will loop anything after it as long as the statment remains true or false.
+In this case the question will look if the variable COLOR is not equal to the string red.
+    Why are lines 12–19 indented?
+Because it is all a child or the while statment.
+    Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)?
+Then if the color was guessed red then it would all stop after that with no text correct.
+If wrong then you could not reenter your guess because it is no longer in the while statment.
+    Make that change and run the program again. To end any Python program, you can type ctrl-c.
+----acted as expected-----
 
+    Open main9.py. What is happening on line 12?
+It is the same while statment as discribed before.
+    What is the purpose of “count”?
+It tells you how many times it took you to get the right answer/end the while loop.
+    What is happening on line 22?
+Prints the text of how many tries it took to answer correctly.
+    Run the program.
+k
 
-
-Open main3.py. Before running it, describe how this is different than main2.py. 
-
-What is happening on lines 11–14? 
-
-Why are lines 12 and 14 indented? 
-
-Run the program and answer the question. What happens if you don’t capitalize Red? 
-
-What does this tell you about "color"?
-
-
-
-Open main4.py. Before running it, describe how this is different than main2.py. 
-
-What problem is this trying to solve? 
-
-Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
-
-
-
-Open main5.py. What do you expect line 11 to do? 
-
-What problem is it trying to solve? 
-
-Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
-
-
-
-Open main6.py. How is line 11 different than main5.py? 
-
-What would you guess .strip() is doing? 
-
-Run the program and answer the question. Is there another way of writing “red” that will break this logic?
-
-
-
-Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
-
-What is the purpose of line 11? 
-
-Run the program and answer the question.
-
-
-
-Open main8.py. What is the purpose of line 11? 
-
-Why are lines 12–19 indented? 
-
-Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
-
-Make that change and run the program again. To end any Python program, you can type ctrl-c.
-
-
-
-Open main9.py. What is happening on line 12? 
-
-What is the purpose of “count”? 
-
-What is happening on line 22? 
-
-Run the program.
-
-
-*Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]). 
-
-Commit your changes and push them back to the repository. 
-
-Did you do the extra credit?
+    *Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]).
+    Commit your changes and push them back to the repository.
+    Did you do the extra credit?
+Yes
